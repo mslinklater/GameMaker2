@@ -1,0 +1,4 @@
+Font font0 has been converted to font family Arial (Bold). Font has been regenerated, small inconsistencies may occur.
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit.
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2.
+game speed set to 60
