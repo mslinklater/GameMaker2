@@ -17,3 +17,12 @@ var _newY = lerp(_viewY, _gotoY, 0.1);
 camera_set_view_pos(view_camera[0], _newX, _newY);
 
 // zooming
+
+var _factor = 0.2;
+var _mouseW = mouse_wheel_down() - mouse_wheel_up();
+zoomF = clamp(zoomF + (_mouseW * _factor), _factor, 2);
+var _lerpH = lerp(_viewH, zoomF * 540, _factor);
+var _newH = clamp(_lerpH, 0, room_height);
+var _newW = _newH * (960/540);
+camera_set_view_size(view_camera[0], _newW, _newH);
+
