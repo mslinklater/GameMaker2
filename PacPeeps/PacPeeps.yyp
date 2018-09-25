@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "242ee327-d151-4874-bb62-78ce32af7816",
+            "Value": {
+                "id": "9a1a852d-0c32-4a84-aab0-f07e3d013a3c",
+                "resourcePath": "sprites\\spr_junction_down\\spr_junction_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2fcc5739-75dc-48ba-887d-2c65ff87084e",
             "Value": {
                 "id": "6edfa21a-492e-41f5-b9f1-90e6020cf0a4",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "321583ec-993d-4124-af48-d305448db770",
                 "resourcePath": "sprites\\spr_wall_out_side1\\spr_wall_out_side1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3a1f1f30-1376-4509-84ff-85cd8192e96d",
+            "Value": {
+                "id": "5a689a6d-fb99-411a-a4b8-1ff2b11c324f",
+                "resourcePath": "sprites\\spr_junction_up\\spr_junction_up.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -283,6 +299,14 @@
             "Value": {
                 "id": "8be1800e-7c74-458e-bd34-ae0f29936e67",
                 "resourcePath": "sprites\\spr_wall_out_corner2\\spr_wall_out_corner2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9979e07d-f39a-4a4f-9b71-05c1e0f48fe3",
+            "Value": {
+                "id": "145bd3ba-01e7-49a1-82ee-8979cb5eb96d",
+                "resourcePath": "sprites\\spr_junction_right\\spr_junction_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -524,6 +548,14 @@
                 "id": "3d96f764-7549-40f4-b5ef-25fdb9c1d403",
                 "resourcePath": "views\\f8677ab9-10ec-4132-b676-12bc96c96b00.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fcb11a53-dd57-4219-9c88-69d65b37155d",
+            "Value": {
+                "id": "9747c26e-d7f0-4a2e-a8c8-4f44f24b9b4c",
+                "resourcePath": "sprites\\spr_junction_left\\spr_junction_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
