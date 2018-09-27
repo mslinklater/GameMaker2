@@ -4,13 +4,41 @@ globals.show_routes = 1;
 
 // macros
 
-#macro kMapmeta_tile_empty		0
-#macro kMapmeta_tile_wall		1
-#macro kMapmeta_tile_junction	2
+#macro kMapmetaTileEmpty	0
+#macro kMapmetaTileWall		1
+#macro kMapmetaTileJunction	2
+#macro kMapmetaTileHoriz	3
+#macro kMapmetaTileVert		4
 
-#macro kMap_tilesize	16
+#macro kMapTileSize	16
 
-#macro kDirection_up	0
-#macro kDirection_right	1
-#macro kDirection_down	2
-#macro kDirection_left	3
+#macro kDirectionNone	-1
+#macro kDirectionUp		0
+#macro kDirectionRight	1
+#macro kDirectionDown	2
+#macro kDirectionLeft	3
+
+#macro kScoreDot 10
+#macro kScoreEnergizer 50
+#macro kScoreGhost1 200
+#macro kScoreGhost2 400
+#macro kScoreGhost3 800
+#macro kScoreGhost4 1600
+
+#macro kFruit1AppearNumDots 70
+#macro kFruit2AppearNumDots 170
+
+#macro kFruitMinTime 9
+#macro kFruitMaxTime 10
+
+#macro kNone	-1
+#macro kGhostInky	0
+#macro kGhostPinky	1
+#macro kGhostBlinky	2
+#macro kGhostClyde	3
+#macro kPlayer1		4
+#macro kPlayer2		5
+
+#macro kGhostModeChase		0
+#macro kGhostModeScatter	1
+#macro kGhostModeFrightened	2

@@ -18,16 +18,16 @@ s_delta_y = 0;
 
 switch(s_direction)
 {
-	case kDirection_up:
+	case kDirectionUp:
 		s_delta_y = -1;
 		break;
-	case kDirection_down:
+	case kDirectionDown:
 		s_delta_y = 1;
 		break;
-	case kDirection_left:
+	case kDirectionLeft:
 		s_delta_x = -1;
 		break;
-	case kDirection_right:
+	case kDirectionRight:
 		s_delta_x = 1;
 		break;
 }
@@ -49,7 +49,7 @@ do
 
 if(s_probe == s_tile_match_id)
 {
-	if(s_direction == kDirection_up) || (s_direction == kDirection_down)
+	if(s_direction == kDirectionUp) || (s_direction == kDirectionDown)
 		return s_y;
 	else
 		return s_x;
