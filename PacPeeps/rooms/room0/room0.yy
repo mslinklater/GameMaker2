@@ -8,7 +8,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "28c755aa-9143-43e5-829b-b83aff4c50f6",
-        "9b3596b2-4394-4154-b3ed-c4a9a22f4a26"
+        "9b3596b2-4394-4154-b3ed-c4a9a22f4a26",
+        "820736a1-a90e-4f5d-bd4c-2fab52d67dbf"
     ],
     "IsDnD": false,
     "layers": [
@@ -27,7 +28,8 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_7561F689","id": "28c755aa-9143-43e5-829b-b83aff4c50f6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7561F689","objId": "09fd3f2f-d734-4fe1-bdb5-427917e34486","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 224,"y": 272},
-{"name": "inst_624EE76","id": "9b3596b2-4394-4154-b3ed-c4a9a22f4a26","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_624EE76","objId": "753ce7f4-1d25-4e08-baaf-efa45b5116f7","properties": [{"id": "30bba243-a122-4cd1-a7ac-a91e8d0a3bed","modelName": "GMOverriddenProperty","objectId": "753ce7f4-1d25-4e08-baaf-efa45b5116f7","propertyId": "22753fe8-6b4b-4ab4-9cd4-b193f0e47896","mvc": "1.0","value": "kPlayer1"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 120,"y": 416}
+{"name": "inst_624EE76","id": "9b3596b2-4394-4154-b3ed-c4a9a22f4a26","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_624EE76","objId": "753ce7f4-1d25-4e08-baaf-efa45b5116f7","properties": [{"id": "30bba243-a122-4cd1-a7ac-a91e8d0a3bed","modelName": "GMOverriddenProperty","objectId": "753ce7f4-1d25-4e08-baaf-efa45b5116f7","propertyId": "22753fe8-6b4b-4ab4-9cd4-b193f0e47896","mvc": "1.0","value": "kPlayer1"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 120,"y": 416},
+{"name": "inst_6E74D25C","id": "820736a1-a90e-4f5d-bd4c-2fab52d67dbf","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6E74D25C","objId": "5b004f33-2f5e-460b-a906-914bf871bfe8","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 320,"y": 336}
             ],
             "layers": [
 

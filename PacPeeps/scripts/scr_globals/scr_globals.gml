@@ -4,13 +4,16 @@ globals.show_routes = 1;
 
 // macros
 
+// mapmeta tiles
 #macro kMapmetaTileEmpty	0
 #macro kMapmetaTileWall		1
 #macro kMapmetaTileJunction	2
-#macro kMapmetaTileHoriz	3
-#macro kMapmetaTileVert		4
 
-#macro kMapTileSize	16
+//mapdots tiles
+#macro kMapTilesDot			3
+#macro kMapTilesEnergizer	4
+
+#macro kMapTileSize		16
 
 #macro kDirectionNone	-1
 #macro kDirectionUp		0
