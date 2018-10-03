@@ -29,8 +29,8 @@ if (m_direction) == kDirectionDown && (m_requestedDirection == kDirectionUp)
 
 if(junctionInstance != noone)
 {	
-	var absX = abs(x - junctionInstance.x);
-	var absY = abs(y - junctionInstance.y);
+	var absX = abs((x-kHalfMapTileSize) - junctionInstance.x);
+	var absY = abs((y-kHalfMapTileSize) - junctionInstance.y);
 	
 	m_allowedDirections[0] = kDirectionNone;
 	m_allowedDirections[1] = kDirectionNone;
@@ -65,11 +65,11 @@ if(junctionInstance != noone)
 	{
 		case kDirectionUp:
 		case kDirectionDown:
-			x = junctionInstance.x;
+			x = junctionInstance.x + kHalfMapTileSize;
 			break;
 		case kDirectionLeft:
 		case kDirectionRight:
-			y = junctionInstance.y;
+			y = junctionInstance.y + kHalfMapTileSize;
 			break;
 	}
 }

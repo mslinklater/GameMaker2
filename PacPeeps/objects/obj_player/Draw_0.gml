@@ -13,13 +13,13 @@ switch(m_direction)
 		draw_sprite_ext(spr_player, m_sprframe, x, y, 1, 1, 0, colour, 1);
 		break;
 	case kDirectionUp:
-		draw_sprite_ext(spr_player, m_sprframe, x, y+16, 1, 1, 90, colour, 1);
+		draw_sprite_ext(spr_player, m_sprframe, x, y, 1, 1, 90, colour, 1);
 		break;
 	case kDirectionLeft:
-		draw_sprite_ext(spr_player, m_sprframe, x+16, y+16, 1, 1, 180, colour, 1);
+		draw_sprite_ext(spr_player, m_sprframe, x, y, 1, 1, 180, colour, 1);
 		break;
 	case kDirectionDown:
-		draw_sprite_ext(spr_player, m_sprframe, x+16, y, 1, 1, 270, colour, 1);
+		draw_sprite_ext(spr_player, m_sprframe, x, y, 1, 1, 270, colour, 1);
 		break;
 }
 

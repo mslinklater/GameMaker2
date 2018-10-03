@@ -14,6 +14,7 @@ globals.show_routes = 1;
 #macro kMapTilesEnergizer	4
 
 #macro kMapTileSize		16
+#macro kHalfMapTileSize	kMapTileSize/2
 
 #macro kDirectionNone	-1
 #macro kDirectionUp		0

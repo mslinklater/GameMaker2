@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_ghost",
     "eventList": [
-        
+        {
+            "id": "080aa5f9-cc29-49fc-a4be-cc553b5dab20",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "fbfdb34d-b0f7-4821-9c1c-92d2ecc8f617"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -42,11 +51,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "kNone",
-            "varName": "ghost_type",
+            "varName": "whichGhost",
             "varType": 6
         }
     ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "519c1fa5-3502-49af-bff8-0d4c6035c277",
     "visible": true
 }
