@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_ghost_pinky",
     "eventList": [
-        
+        {
+            "id": "4a6b869f-b245-4041-aded-bb94ca315b95",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "63975c80-9eaa-4f91-bd57-42f18f2ffd1a"
+        },
+        {
+            "id": "405ec209-9944-4328-8284-18ea94a362e9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "63975c80-9eaa-4f91-bd57-42f18f2ffd1a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -33,6 +52,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "519c1fa5-3502-49af-bff8-0d4c6035c277",
     "visible": true
 }

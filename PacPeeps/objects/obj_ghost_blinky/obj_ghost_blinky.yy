@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_ghost_blinky",
     "eventList": [
-        
+        {
+            "id": "62fca15f-bde9-46cc-87e0-aa838c796cee",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "8fef137c-0e00-49d3-8e21-112d5aa3b7d5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -33,6 +42,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "519c1fa5-3502-49af-bff8-0d4c6035c277",
     "visible": true
 }

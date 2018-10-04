@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_ghost_clyde",
     "eventList": [
-        
+        {
+            "id": "10a6611a-22cf-409e-923e-8641ac55f48e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c03d1acf-f87c-4428-80f5-7eed49d80f6f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -33,6 +42,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "519c1fa5-3502-49af-bff8-0d4c6035c277",
     "visible": true
 }

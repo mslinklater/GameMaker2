@@ -1,5 +1,9 @@
 // Builds runtime data structures for the map
 
+// create the mpgrid
+
+global.mpGrid = mp_grid_create(0, 0, room_width/kMapTileSize, room_height/kMapTileSize, kMapTileSize, kMapTileSize);
+
 // Switch off the mapmeta tile layer
 layer_set_visible("MapMeta", 0);
 
@@ -19,6 +23,10 @@ for(col = 0 ; col < m_mapmeta_width ; col++)
 		if(tile_value == kMapmetaTileJunction)
 		{
 			instance_create_layer(col * kMapTileSize, row * kMapTileSize, "Map", obj_junction);
+		}
+		if(tile_value == kMapmetaTileWall)
+		{
+			mp_grid_add_cell(global.mpGrid, col, row);
 		}
 	}
 }
@@ -46,3 +54,4 @@ for(col = 0 ; col < m_mapdots_width ; col++)
 		}
 	}
 }
+

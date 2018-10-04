@@ -1,6 +1,6 @@
 // vars
 
-globals.show_routes = 1;
+globals.dbg_showPaths = 0;
 
 // macros
 

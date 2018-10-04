@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_ghost_inky",
     "eventList": [
-        
+        {
+            "id": "a22cab7f-c7e9-41e0-8f51-1a0e087a98b7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "a961fc69-483c-4a8f-94b9-818807e60276"
+        },
+        {
+            "id": "6b223cb4-f964-4fde-ba5b-0e66b04878de",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "a961fc69-483c-4a8f-94b9-818807e60276"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
@@ -33,6 +52,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "519c1fa5-3502-49af-bff8-0d4c6035c277",
     "visible": true
 }

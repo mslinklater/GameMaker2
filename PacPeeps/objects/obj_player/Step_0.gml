@@ -11,6 +11,8 @@ if(m_whichPlayer == kPlayer1)
 	if(keyboard_check(vk_right))	m_requestedDirection = kDirectionRight;
 	if(keyboard_check(vk_up))		m_requestedDirection = kDirectionUp;
 	if(keyboard_check(vk_down))		m_requestedDirection = kDirectionDown;
+	global.player1X = x;
+	global.player1Y = y;
 }
 else
 {
@@ -18,6 +20,8 @@ else
 	if(keyboard_check(ord("D")))		m_requestedDirection = kDirectionRight;
 	if(keyboard_check(ord("W")))		m_requestedDirection = kDirectionUp;
 	if(keyboard_check(ord("S")))		m_requestedDirection = kDirectionDown;
+	global.player2X = x;
+	global.player2Y = y;
 }
 
 // Animation
