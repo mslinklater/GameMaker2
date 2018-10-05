@@ -10,3 +10,4 @@ m_allowedDirections[1] = kDirectionRight;
 m_speed = 1;
 m_seekX = 0;
 m_seekY = 0;
+m_validPath = false;

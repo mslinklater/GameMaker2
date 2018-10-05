@@ -29,6 +29,8 @@ if (m_direction) == kDirectionDown && (m_requestedDirection == kDirectionUp)
 
 if(junctionInstance != noone)
 {	
+	m_atJunction = true;
+	
 	var absX = abs((x-kHalfMapTileSize) - junctionInstance.x);
 	var absY = abs((y-kHalfMapTileSize) - junctionInstance.y);
 	
@@ -41,11 +43,11 @@ if(junctionInstance != noone)
 	{
 		with(junctionInstance)
 		{
-			var fill = 0;
-			if(m_can_move_up) other.m_allowedDirections[fill++] = kDirectionUp;
-			if(m_can_move_down) other.m_allowedDirections[fill++] = kDirectionDown;
-			if(m_can_move_left) other.m_allowedDirections[fill++] = kDirectionLeft;
-			if(m_can_move_right) other.m_allowedDirections[fill++] = kDirectionRight;
+			other.m_numAllowedDirections = 0;
+			if(m_can_move_up) other.m_allowedDirections[other.m_numAllowedDirections++] = kDirectionUp;
+			if(m_can_move_down) other.m_allowedDirections[other.m_numAllowedDirections++] = kDirectionDown;
+			if(m_can_move_left) other.m_allowedDirections[other.m_numAllowedDirections++] = kDirectionLeft;
+			if(m_can_move_right) other.m_allowedDirections[other.m_numAllowedDirections++] = kDirectionRight;
 			
 			// stopping at walls
 			
@@ -72,6 +74,11 @@ if(junctionInstance != noone)
 			y = junctionInstance.y + kHalfMapTileSize;
 			break;
 	}
+}
+else
+{
+	// not at a junction
+	m_atJunction = false;
 }
 
 // check if requested direction is in the allowed direction array

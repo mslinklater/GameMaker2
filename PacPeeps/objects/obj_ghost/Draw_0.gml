@@ -20,14 +20,17 @@ switch(whichGhost)
 
 //if(globals.dbg_showPaths)
 draw_set_alpha(1);
+if(m_validPath)
+	draw_set_color(c_green);
+else
+	draw_set_color(c_red);
+	
+for( var i=0; i<path_get_number(m_myPath)-1; i++)
 {
-	for( var i=0; i<path_get_number(m_myPath)-1; i++)
-	{
-		var p1x = path_get_point_x(m_myPath, i);
-		var p1y = path_get_point_y(m_myPath, i);
-		var p2x = path_get_point_x(m_myPath, i+1);
-		var p2y = path_get_point_y(m_myPath, i+1);
-		
-		draw_line(p1x, p1y, p2x, p2y);
-	}
+	var p1x = path_get_point_x(m_myPath, i);
+	var p1y = path_get_point_y(m_myPath, i);
+	var p2x = path_get_point_x(m_myPath, i+1);
+	var p2y = path_get_point_y(m_myPath, i+1);
+	
+	draw_line(p1x, p1y, p2x, p2y);
 }
