@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "242ee327-d151-4874-bb62-78ce32af7816",
-            "Value": {
-                "id": "9a1a852d-0c32-4a84-aab0-f07e3d013a3c",
-                "resourcePath": "sprites\\spr_junction_down\\spr_junction_down.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2fcc5739-75dc-48ba-887d-2c65ff87084e",
             "Value": {
                 "id": "6edfa21a-492e-41f5-b9f1-90e6020cf0a4",
@@ -151,10 +143,10 @@
             }
         },
         {
-            "Key": "3a1f1f30-1376-4509-84ff-85cd8192e96d",
+            "Key": "3dceefc7-528f-458b-8fdc-e74133088439",
             "Value": {
-                "id": "5a689a6d-fb99-411a-a4b8-1ff2b11c324f",
-                "resourcePath": "sprites\\spr_junction_up\\spr_junction_up.yy",
+                "id": "0b7b3162-73d4-4bf2-90d7-5c0682f87da4",
+                "resourcePath": "sprites\\sArrow\\sArrow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -399,14 +391,6 @@
             }
         },
         {
-            "Key": "9979e07d-f39a-4a4f-9b71-05c1e0f48fe3",
-            "Value": {
-                "id": "145bd3ba-01e7-49a1-82ee-8979cb5eb96d",
-                "resourcePath": "sprites\\spr_junction_right\\spr_junction_right.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "99b70cc0-b787-49c8-9719-8450170a4ce5",
             "Value": {
                 "id": "f50e2bc9-9938-44e8-9946-5dd695956333",
@@ -532,6 +516,14 @@
                 "id": "2e56d9fe-ea30-4e33-bc85-78126d95310c",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d35a3f35-d620-4423-bc66-106ce0a1c906",
+            "Value": {
+                "id": "b11742cf-408d-48a4-b3cc-c63111cc95f7",
+                "resourcePath": "rooms\\rmBoot\\rmBoot.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -671,6 +663,14 @@
             }
         },
         {
+            "Key": "f642c82b-7d25-419d-b7ee-7ab01ff220d1",
+            "Value": {
+                "id": "6c47490b-b13a-427d-a454-0d7caa5abdbc",
+                "resourcePath": "objects\\oDebugManager\\oDebugManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f6f0e30f-fc95-4a89-960a-26617e7f1f32",
             "Value": {
                 "id": "79198cd7-d496-4fe2-835a-172ab273fbb3",
@@ -708,14 +708,6 @@
                 "id": "1e253487-0e88-43e1-8c4b-26c7e194be7e",
                 "resourcePath": "objects\\obj_ghost\\obj_ghost.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "fcb11a53-dd57-4219-9c88-69d65b37155d",
-            "Value": {
-                "id": "9747c26e-d7f0-4a2e-a8c8-4f44f24b9b4c",
-                "resourcePath": "sprites\\spr_junction_left\\spr_junction_left.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

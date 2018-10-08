@@ -1,6 +1,7 @@
 // vars
 
-globals.dbg_showPaths = 0;
+globals.dbg_showPaths = false;
+
 
 // macros
 

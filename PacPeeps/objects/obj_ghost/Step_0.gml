@@ -33,7 +33,7 @@ if(m_atJunction)
 	else
 	{
 		// not a valid path, so pick a random valid direction
-		if(m_numAllowedDirections > 0)
+		if((m_numAllowedDirections > 0) && m_needToPickRandomRoute)
 		{
 			var validRequest = true;
 			do
@@ -46,6 +46,11 @@ if(m_atJunction)
 				if(m_direction == kDirectionLeft) && (m_requestedDirection == kDirectionRight) validRequest = false;
 				if(m_direction == kDirectionRight) && (m_requestedDirection == kDirectionLeft) validRequest = false;
 			} until(validRequest);
+			m_needToPickRandomRoute = false;
 		}
 	}
+}
+else
+{
+	m_needToPickRandomRoute = true;
 }

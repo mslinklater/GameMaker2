@@ -1,44 +1,34 @@
 {
-    "id": "97306079-d534-4cc1-9ea9-ccd43668ed7d",
+    "id": "f642c82b-7d25-419d-b7ee-7ab01ff220d1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_moving",
+    "name": "oDebugManager",
     "eventList": [
         {
-            "id": "8ec0f878-7b84-47ae-84da-aaf8c34d15eb",
+            "id": "ebcb4e9f-482b-48f1-b892-012a3e6826ef",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "97306079-d534-4cc1-9ea9-ccd43668ed7d"
+            "m_owner": "f642c82b-7d25-419d-b7ee-7ab01ff220d1"
         },
         {
-            "id": "3472c102-ba9f-4f10-b8c4-357164192fdf",
+            "id": "7f55f9d7-05a8-4ea8-b55a-3a70e29e42bf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "97306079-d534-4cc1-9ea9-ccd43668ed7d"
-        },
-        {
-            "id": "8b400b3f-ef5a-4e0a-a072-f58537d85a05",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "97306079-d534-4cc1-9ea9-ccd43668ed7d"
+            "m_owner": "f642c82b-7d25-419d-b7ee-7ab01ff220d1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -51,9 +41,7 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        
-    ],
+    "properties": null,
     "solid": false,
     "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
