@@ -1,6 +1,5 @@
 /// @description Draw used for all 4 ghosts
 
-event_inherited();
 
 switch(whichGhost)
 {
@@ -40,3 +39,4 @@ if(global.dbg_drawPaths)
 	}
 }
 	
+event_inherited();

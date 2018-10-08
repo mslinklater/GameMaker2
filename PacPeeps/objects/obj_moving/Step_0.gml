@@ -18,14 +18,17 @@ if (x > room_width) x = -kMapTileSize;
 
 var junctionInstance = instance_place(x, y, obj_junction);
 
-if (m_direction) == kDirectionLeft && (m_requestedDirection == kDirectionRight)
-	m_direction = m_requestedDirection;
-if (m_direction) == kDirectionRight && (m_requestedDirection == kDirectionLeft)
-	m_direction = m_requestedDirection;
-if (m_direction) == kDirectionUp && (m_requestedDirection == kDirectionDown)
-	m_direction = m_requestedDirection;
-if (m_direction) == kDirectionDown && (m_requestedDirection == kDirectionUp)
-	m_direction = m_requestedDirection;
+if(m_canTurnImmediately)
+{
+	if (m_direction == kDirectionLeft) && (m_requestedDirection == kDirectionRight)
+		m_direction = m_requestedDirection;
+	if (m_direction == kDirectionRight) && (m_requestedDirection == kDirectionLeft)
+		m_direction = m_requestedDirection;
+	if (m_direction == kDirectionUp) && (m_requestedDirection == kDirectionDown)
+		m_direction = m_requestedDirection;
+	if (m_direction == kDirectionDown) && (m_requestedDirection == kDirectionUp)
+		m_direction = m_requestedDirection;
+}
 
 if(junctionInstance != noone)
 {	
@@ -34,6 +37,7 @@ if(junctionInstance != noone)
 	var absX = abs((x-kHalfMapTileSize) - junctionInstance.x);
 	var absY = abs((y-kHalfMapTileSize) - junctionInstance.y);
 	
+	m_numAllowedDirections = 0;
 	m_allowedDirections[0] = kDirectionNone;
 	m_allowedDirections[1] = kDirectionNone;
 	m_allowedDirections[2] = kDirectionNone;
@@ -41,25 +45,23 @@ if(junctionInstance != noone)
 		
 	if(absX < m_speed) && (absY < m_speed)
 	{
-		with(junctionInstance)
-		{
-			other.m_numAllowedDirections = 0;
-			if(m_can_move_up) other.m_allowedDirections[other.m_numAllowedDirections++] = kDirectionUp;
-			if(m_can_move_down) other.m_allowedDirections[other.m_numAllowedDirections++] = kDirectionDown;
-			if(m_can_move_left) other.m_allowedDirections[other.m_numAllowedDirections++] = kDirectionLeft;
-			if(m_can_move_right) other.m_allowedDirections[other.m_numAllowedDirections++] = kDirectionRight;
+		m_numAllowedDirections = 0;
+		
+		if(junctionInstance.m_can_move_up) m_allowedDirections[m_numAllowedDirections++] = kDirectionUp;
+		if(junctionInstance.m_can_move_down) m_allowedDirections[m_numAllowedDirections++] = kDirectionDown;
+		if(junctionInstance.m_can_move_left) m_allowedDirections[m_numAllowedDirections++] = kDirectionLeft;
+		if(junctionInstance.m_can_move_right) m_allowedDirections[m_numAllowedDirections++] = kDirectionRight;
 			
-			// stopping at walls
+		// stopping at walls
 			
-			if(!m_can_move_up) && (other.m_direction == kDirectionUp)
-				other.m_direction = kDirectionNone;
-			if(!m_can_move_left) && (other.m_direction == kDirectionLeft)
-				other.m_direction = kDirectionNone;
-			if(!m_can_move_down) && (other.m_direction == kDirectionDown)
-				other.m_direction = kDirectionNone;
-			if(!m_can_move_right) && (other.m_direction == kDirectionRight)
-				other.m_direction = kDirectionNone;
-		}
+		if(!junctionInstance.m_can_move_up) && (m_direction == kDirectionUp)
+			m_direction = kDirectionNone;
+		if(!junctionInstance.m_can_move_left) && (m_direction == kDirectionLeft)
+			m_direction = kDirectionNone;
+		if(!junctionInstance.m_can_move_down) && (m_direction == kDirectionDown)
+			m_direction = kDirectionNone;
+		if(!junctionInstance.m_can_move_right) && (m_direction == kDirectionRight)
+			m_direction = kDirectionNone;
 	}
 
 // snap to grid

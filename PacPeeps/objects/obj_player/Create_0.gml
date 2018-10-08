@@ -6,3 +6,4 @@ m_allowedDirections[1] = kDirectionRight;
 m_speed = 1.5;
 
 m_sprframe = 0;
+m_canTurnImmediately = true;
