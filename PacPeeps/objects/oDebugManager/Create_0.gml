@@ -3,4 +3,3 @@
 
 global.dbg_drawPaths = false;
 global.dbg_drawMapMeta = false;
-room_goto_next();

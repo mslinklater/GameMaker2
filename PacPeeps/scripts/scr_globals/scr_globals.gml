@@ -1,9 +1,9 @@
-// vars
-
-globals.dbg_showPaths = false;
-
-
 // macros
+
+// game phase
+#macro kGamePhaseBoot		0
+#macro kGamePhaseFrontEnd	1
+#macro kGamePhaseInGame		2
 
 // mapmeta tiles
 #macro kMapmetaTileEmpty	0
