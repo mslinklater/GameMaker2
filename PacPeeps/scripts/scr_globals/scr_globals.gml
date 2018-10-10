@@ -17,12 +17,14 @@
 #macro kMapTileSize		16
 #macro kHalfMapTileSize	kMapTileSize/2
 
+// Directions
 #macro kDirectionNone	-1
 #macro kDirectionUp		0
 #macro kDirectionRight	1
 #macro kDirectionDown	2
 #macro kDirectionLeft	3
 
+// Scoring
 #macro kScoreDot 10
 #macro kScoreEnergizer 50
 #macro kScoreGhost1 200

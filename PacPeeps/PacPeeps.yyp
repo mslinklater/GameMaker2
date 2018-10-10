@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "582d61e0-56e1-4611-9453-a92d67db1855",
+            "Value": {
+                "id": "f87d39c2-1646-45a8-b4e1-12138d153fad",
+                "resourcePath": "objects\\oMapManager\\oMapManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "584b89ae-efb8-428e-a987-1862a3cb23f9",
             "Value": {
                 "id": "c3c19884-4b1c-462d-8d46-7ff5700c3d30",
@@ -284,6 +292,14 @@
                 "id": "a50adca7-0198-422d-9abf-aaa9699eba07",
                 "resourcePath": "sprites\\spr_wall_out_side4\\spr_wall_out_side4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6cd6a0a0-4824-4371-a16f-d1ff9152b9b4",
+            "Value": {
+                "id": "6649c6b6-f0a8-4fab-a484-0369921ce795",
+                "resourcePath": "fonts\\fntMain\\fntMain.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "c41c7e58-797a-4eab-8230-e33c93ec085a",
+            "Value": {
+                "id": "db0a9e66-1afa-4e02-ac01-166b9ec112ee",
+                "resourcePath": "scripts\\gm_beginGame\\gm_beginGame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ca38ad65-9717-46c3-a20f-1c8019a3112b",
             "Value": {
                 "id": "10fce7e5-e6a5-443b-bb03-1a9178abd738",
@@ -767,6 +791,14 @@
             }
         },
         {
+            "Key": "fbcca3c2-e6e7-4c98-9635-05bc060f4cd4",
+            "Value": {
+                "id": "b1363b89-c89a-4108-8f08-ce561df50180",
+                "resourcePath": "views\\fbcca3c2-e6e7-4c98-9635-05bc060f4cd4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fbfdb34d-b0f7-4821-9c1c-92d2ecc8f617",
             "Value": {
                 "id": "1e253487-0e88-43e1-8c4b-26c7e194be7e",
@@ -797,13 +829,22 @@
                 "resourcePath": "views\\ff3b6318-9ae4-4e76-8ffd-da3d5c2bb2eb.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ffb67801-2a59-4e7d-b495-231bbb0ca447",
+            "Value": {
+                "id": "a412e87e-ed53-4cdd-a83c-126cd8de5b56",
+                "resourcePath": "objects\\oBootManager\\oBootManager.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
         "9cabad3d-080e-4346-848a-6bdc1c86bfef",
         "1840122a-2d67-4e9c-ada6-af63198d0764",
         "e9782df6-aeab-4863-8936-a71e2a241232",
-        "c34396bd-ffa7-44c2-809a-1a2873cc4291"
+        "c34396bd-ffa7-44c2-809a-1a2873cc4291",
+        "c41c7e58-797a-4eab-8230-e33c93ec085a"
     ],
     "tutorial": ""
 }

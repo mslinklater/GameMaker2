@@ -37,6 +37,7 @@ var dot = instance_place(x, y, obj_dot);
 if( dot != noone)
 {
 	instance_destroy(dot);
+	global.playerScore+=kScoreDot;
 }
 
 // check for eating energizers
@@ -44,5 +45,6 @@ var energizer = instance_place(x, y, obj_energizer);
 if( energizer != noone)
 {
 	instance_destroy(energizer);
+	global.playerScore+=kScoreEnergizer;
 }
 

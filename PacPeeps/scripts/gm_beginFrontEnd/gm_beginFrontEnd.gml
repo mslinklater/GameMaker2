@@ -1,1 +1,1 @@
-room_goto("rmFrontEnd");
+room_goto(rmFrontEnd);
