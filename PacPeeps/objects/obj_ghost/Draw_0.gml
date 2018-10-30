@@ -1,21 +1,41 @@
 /// @description Draw used for all 4 ghosts
 
+m_animationDelay++;
+if(m_animationDelay > 8)
+{
+	m_animationDelay = 0;
+	m_spriteFrame++;
+	if(m_spriteFrame >= 2) m_spriteFrame = 0;
+}
 
 switch(whichGhost)
 {
 	case kGhostInky:
-		draw_sprite_ext(spr_ghost, 0, x, y, 1, 1, 0, make_color_rgb(255, 0, 0), 1);
+		draw_sprite_ext(spr_ghost, m_spriteFrame, x, y, 1, 1, 0, make_color_rgb(255, 0, 0), 1);
 	break;
 	case kGhostPinky:
-		draw_sprite_ext(spr_ghost, 0, x, y, 1, 1, 0, make_color_rgb(255,184,255), 1);
+		draw_sprite_ext(spr_ghost, m_spriteFrame, x, y, 1, 1, 0, make_color_rgb(255,184,255), 1);
 	break;
 	case kGhostBlinky:
-		draw_sprite_ext(spr_ghost, 0, x, y, 1, 1, 0, make_color_rgb(0, 255, 255), 1);
+		draw_sprite_ext(spr_ghost, m_spriteFrame, x, y, 1, 1, 0, make_color_rgb(0, 255, 255), 1);
 	break;
 	case kGhostClyde:
-		draw_sprite_ext(spr_ghost, 0, x, y, 1, 1, 0, make_color_rgb(255, 184, 82), 1);
+		draw_sprite_ext(spr_ghost, m_spriteFrame, x, y, 1, 1, 0, make_color_rgb(255, 184, 82), 1);
 	break;
 }
+
+// draw eyes
+
+var eyesFrame = 0;
+switch(m_direction)
+{
+	case kDirectionUp: eyesFrame = 0; break;
+	case kDirectionRight: eyesFrame = 1; break;
+	case kDirectionDown: eyesFrame = 2; break;
+	case kDirectionLeft: eyesFrame = 3; break;
+}
+draw_sprite_ext(sEyes, eyesFrame, x-6, y-6, 1, 1, 0, $ffffff, 1);
+draw_sprite_ext(sEyes, eyesFrame, x+4, y-6, 1, 1, 0, $ffffff, 1);
 
 // Debug draw
 

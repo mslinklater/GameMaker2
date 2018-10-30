@@ -12,3 +12,6 @@ m_seekX = 0;
 m_seekY = 0;
 m_validPath = false;
 m_needToPickRandomRoute = false;
+
+m_animationDelay = 0;
+m_spriteFrame = 0;

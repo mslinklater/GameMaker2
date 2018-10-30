@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "2ef2f5f5-5dfd-4df2-95e3-b08eff78e4dc",
+            "Value": {
+                "id": "a48a9dd2-62df-47b8-8c27-43bf9dc07344",
+                "resourcePath": "sprites\\sEyes\\sEyes.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2fcc5739-75dc-48ba-887d-2c65ff87084e",
             "Value": {
                 "id": "6edfa21a-492e-41f5-b9f1-90e6020cf0a4",
@@ -514,7 +522,7 @@
             "Key": "aa57b2f1-ea5a-4b66-8139-7a2e60a47ea0",
             "Value": {
                 "id": "e2c1e2bf-d1d2-4247-9a91-7b7f203a2172",
-                "resourcePath": "notes\\note0.yy",
+                "resourcePath": "notes\\readme.yy",
                 "resourceType": "GMNotes"
             }
         },
@@ -708,6 +716,14 @@
                 "id": "9356fcd7-a378-4336-abed-8ffa7656d5b1",
                 "resourcePath": "views\\ec24db0f-1042-4fbf-a836-43c834ec2cea.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ecac70ef-8bc3-4e91-a138-dd0cbc1bb3f8",
+            "Value": {
+                "id": "228c32c0-eb5c-4ad0-b4fd-226a3c522963",
+                "resourcePath": "notes\\license.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
