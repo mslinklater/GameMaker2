@@ -2,7 +2,8 @@
 
 // position properly
 
-x = room_width / 2;
+x = kPlayerStartX;
 y = kPlayerY;
 
 global.bulletActive = false;
+global.canPlayerMove = false;

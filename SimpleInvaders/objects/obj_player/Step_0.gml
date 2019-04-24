@@ -2,14 +2,17 @@
 
 // moving
 
-if(keyboard_check(vk_left))
+if(global.canPlayerMove)
 {
-	x -= kPlayerSpeed;
-}
+	if(keyboard_check(vk_left))
+	{
+		x -= kPlayerSpeed;
+	}
 
-if(keyboard_check(vk_right))
-{
-	x += kPlayerSpeed;
+	if(keyboard_check(vk_right))
+	{
+		x += kPlayerSpeed;
+	}
 }
 
 // clamp position

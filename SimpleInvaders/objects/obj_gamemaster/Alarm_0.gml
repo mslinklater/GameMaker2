@@ -36,3 +36,8 @@ if(numBaddiesBuilt < 55)
 {
 	alarm[kBuildAlarm] = 2;
 }
+else
+{
+	global.canPlayerMove = true;
+	
+}
