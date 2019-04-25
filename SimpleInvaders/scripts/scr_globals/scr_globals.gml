@@ -1,10 +1,10 @@
-#macro kPlayerY 550
-#macro kPlayerXBorder 50
-#macro kPlayerSpeed 3
-#macro kPlayerStartX 112
+#macro kPlayerY 270
+#macro kPlayerXBorder 25
+#macro kPlayerSpeed 1
+#macro kPlayerStartX 56
 
-#macro kBaddieScale 2
-#macro kBaddieStartX 80
-#macro kBaddieStartY 320
-#macro kBaddieStartXStep 32
-#macro kBaddieStartYStep 40
+#macro kBaddieScale 1
+#macro kBaddieStartX 40
+#macro kBaddieStartY 160
+#macro kBaddieStartXStep 16
+#macro kBaddieStartYStep 20

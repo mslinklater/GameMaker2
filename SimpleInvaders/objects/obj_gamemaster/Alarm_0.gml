@@ -34,10 +34,10 @@ numBaddiesBuilt++;
 
 if(numBaddiesBuilt < 55)
 {
-	alarm[kBuildAlarm] = 2;
+	alarm[kBuildAlarm] = 1;
 }
 else
 {
 	global.canPlayerMove = true;
-	
+	currentPhase = kPhaseGame;
 }

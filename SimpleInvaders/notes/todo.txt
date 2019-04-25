@@ -1,0 +1,5 @@
+get baddies moving
+shooting baddies
+lives
+main flow
+sound

@@ -9,3 +9,5 @@ currentPhase = kPhaseBuild;
 
 alarm[kBuildAlarm] = 5;
 numBaddiesBuilt = 0;
+
+draw_set_font(fnt_main);
