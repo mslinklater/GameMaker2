@@ -8,3 +8,6 @@
 #macro kBaddieStartY 160
 #macro kBaddieStartXStep 16
 #macro kBaddieStartYStep 20
+
+#macro kDirectionLeft 0
+#macro kDirectionRight 1

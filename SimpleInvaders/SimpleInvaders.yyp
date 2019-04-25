@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1c92aaf4-1b2e-4a10-8e21-5bf3be19bc48",
+            "Value": {
+                "id": "d074827d-1950-4f6f-8da2-8ce27f4342af",
+                "resourcePath": "rooms\\rm_boot\\rm_boot.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "21da6db5-0f67-45ef-8225-23faf6e0cb8e",
             "Value": {
                 "id": "6b3c14b3-7603-4360-917b-5501f5a1ac64",
@@ -140,6 +148,14 @@
                 "id": "84e449b8-e106-4a18-917a-19cc302f283c",
                 "resourcePath": "views\\605db881-ff5c-47eb-891c-ca9a9b24dbc8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62034cc8-85ff-4aa3-8cd5-761ee75cc520",
+            "Value": {
+                "id": "16a12349-d693-487b-b25d-72cf58537a6c",
+                "resourcePath": "objects\\obj_bootmanager\\obj_bootmanager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
