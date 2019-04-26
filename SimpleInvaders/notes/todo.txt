@@ -1,5 +1,10 @@
-get baddies moving
-shooting baddies
+DONE - get baddies moving
+DONE - shooting baddies
 lives
 main flow
 sound
+barriers
+baddie bombs
+space ships
+game over screen
+difficulty progression - what is it ?

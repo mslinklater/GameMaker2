@@ -4,41 +4,59 @@ if(currentPhase == kPhaseGame)
 {
 	var numBaddies = ds_list_size(baddieList);
 	
+	if(numBaddies == 0)
+	{
+		// grid cleared
+		currentPhase = kPhaseBuild;
+
+		alarm[kBuildAlarm] = 5;
+		baddieList = ds_list_create();
+		numBaddiesBuilt = 0;
+		baddieMovingDown = false;
+		baddieRequestMoveDown = false;
+		return;
+	}
+	
 	// update a baddie
 	
 	with(baddieList[|updatingBaddie])
 	{
-		x += other.baddieDelta;
-		
-		if(x>=230)
+		if(other.baddieMovingDown)
 		{
-			other.baddieDirection = kDirectionLeft;
-			other.baddieMoveDown = true;
+			y += kBaddieYSpeed;
 		}
-		if(x<=10)
+		else
 		{
-			other.baddieDirection = kDirectionRight;
-			other.baddieMoveDown = true;
-		}
+			x += other.baddieDelta;
+			image_index = 1 - image_index;
+			
+			if(x >= room_width - kBaddieXBorder)
+			{
+				other.baddieDirection = kDirectionLeft;
+				other.baddieRequestMoveDown = true;
+			}
+			if(x <= kBaddieXBorder)
+			{
+				other.baddieDirection = kDirectionRight;
+				other.baddieRequestMoveDown = true;
+			}
+		}		
 		// animate
-		if(other.baddieMoveDown)
-		{
-//			y += 4;
-		}
 	}
 	
 	updatingBaddie++;
 	if(updatingBaddie >= numBaddies)
 	{
 		updatingBaddie = 0;
-		baddieMoveDown = false;
+		baddieMovingDown = baddieRequestMoveDown;
+		baddieRequestMoveDown = false;
 		if(baddieDirection == kDirectionRight)
 		{
-			baddieDelta = 2;
+			baddieDelta = kBaddieXSpeed;
 		}
 		else
 		{
-			baddieDelta = -2;
+			baddieDelta = -kBaddieXSpeed;
 		}
 	}
 }

@@ -43,5 +43,5 @@ else
 	currentPhase = kPhaseGame;
 	updatingBaddie = 0;
 	baddieDirection = kDirectionRight;
-	baddieDelta = 2;
+	baddieDelta = kBaddieXSpeed;
 }
