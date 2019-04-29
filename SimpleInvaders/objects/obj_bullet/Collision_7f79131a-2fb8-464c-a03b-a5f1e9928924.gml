@@ -11,8 +11,13 @@ with(obj_gamemaster)
 		updatingBaddie--;
 	}
 }
-instance_create_layer(other.x, other.y, "Instances", obj_baddie_explosion);
-instance_destroy(other)
+
+// grab the location of the destroyed baddie
+var column = other.column;
+var row = other.row;
+scr_baddieDestroyed(other, column, row);
+
+// Now destroy the baddie and spawn an expostion object
 instance_destroy()
 
 global.bulletActive = false;

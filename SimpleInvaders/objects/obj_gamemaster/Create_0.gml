@@ -16,3 +16,5 @@ baddieRequestMoveDown = false;
 draw_set_font(fnt_main);
 
 instance_image_index = 0;
+
+//window_set_fullscreen(true);

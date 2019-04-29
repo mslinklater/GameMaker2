@@ -1,14 +1,13 @@
-/// @description Insert
+/// @description Update the game
 
 if(currentPhase == kPhaseGame)
 {
 	var numBaddies = ds_list_size(baddieList);
-	
+
+	// Process clearing the grid of baddies
 	if(numBaddies == 0)
 	{
-		// grid cleared
 		currentPhase = kPhaseBuild;
-
 		alarm[kBuildAlarm] = 5;
 		baddieList = ds_list_create();
 		numBaddiesBuilt = 0;
@@ -17,8 +16,7 @@ if(currentPhase == kPhaseGame)
 		return;
 	}
 	
-	// update a baddie
-	
+	// update this frames baddie	
 	with(baddieList[|updatingBaddie])
 	{
 		if(other.baddieMovingDown)
@@ -41,10 +39,11 @@ if(currentPhase == kPhaseGame)
 				other.baddieRequestMoveDown = true;
 			}
 		}		
-		// animate
 	}
 	
 	updatingBaddie++;
+	
+	// wrap back to updating the first baddie and do some processing
 	if(updatingBaddie >= numBaddies)
 	{
 		updatingBaddie = 0;
@@ -59,4 +58,6 @@ if(currentPhase == kPhaseGame)
 			baddieDelta = -kBaddieXSpeed;
 		}
 	}
+	
+	// Decide wether to drop bombs
 }

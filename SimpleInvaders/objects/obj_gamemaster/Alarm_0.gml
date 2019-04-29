@@ -4,6 +4,7 @@
 
 var xpos = kBaddieStartX + ((numBaddiesBuilt % 11) * kBaddieStartXStep);
 var row = floor(numBaddiesBuilt / 11);
+var column = numBaddiesBuilt % 11;
 var ypos = kBaddieStartY - (row * kBaddieStartYStep);
 
 var whichBaddie = 0;
@@ -24,6 +25,8 @@ switch(row)
 }
 
 var newBaddie = instance_create_layer(xpos, ypos, "Instances", whichBaddie);
+newBaddie.row = row + 1;
+newBaddie.column = column;
 
 ds_list_add(baddieList, newBaddie);
 
@@ -39,9 +42,17 @@ if(numBaddiesBuilt < 55)
 }
 else
 {
+	// grid of baddies is fully set up
 	global.canPlayerMove = true;
 	currentPhase = kPhaseGame;
 	updatingBaddie = 0;
 	baddieDirection = kDirectionRight;
 	baddieDelta = kBaddieXSpeed;
+	
+	// init the bomb dropping array
+	bombDropList = ds_list_create();
+	for(var i=0 ; i<11 ; i++)
+	{
+		ds_list_add(bombDropList, 0);	// row of baddie at column i
+	}
 }
