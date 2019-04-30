@@ -10,3 +10,6 @@ instance_destroy(baddie);
 
 // update the bomb drop locations in the game master
 var numAliveBaddies = instance_number(obj_baddie);
+
+// update the occupancy list
+ds_list_set(obj_gamemaster.baddieOccupancyList, row*11 + column, false);

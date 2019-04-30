@@ -16,7 +16,7 @@ if(currentPhase == kPhaseGame)
 		return;
 	}
 	
-	// update this frames baddie	
+	// update this frames baddie
 	with(baddieList[|updatingBaddie])
 	{
 		if(other.baddieMovingDown)
@@ -60,4 +60,32 @@ if(currentPhase == kPhaseGame)
 	}
 	
 	// Decide wether to drop bombs
+//	if(bombAvailable)
+	{
+		// which columns have baddies in them
+		var columnList = ds_list_create();
+		for(var iCol=0 ; iCol<11 ; iCol++)
+		{
+			var occupied = false;
+			for( var iRow=0 ; iRow<5 ; iRow++)
+			{
+				if(ds_list_find_value(baddieOccupancyList, (iRow*11) + iCol))
+				{
+					occupied = true;
+				}
+			}
+			if(occupied)
+			{
+				ds_list_add(columnList, iCol);
+			}
+		}
+		if(ds_list_size(columnList) > 0)
+		{
+			var chosenColumn = ds_list_find_value(columnList, irandom_range(0, ds_list_size(columnList)-1));
+			
+			show_debug_message("column:" + string(chosenColumn));
+		}
+		// pick a column number
+		bombAvailable = false;
+	}
 }

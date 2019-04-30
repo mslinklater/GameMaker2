@@ -11,3 +11,21 @@ switch(currentPhase)
 }
 
 draw_text(0, 620, "baddies: " + string(ds_list_size(baddieList)));
+
+// occupancy
+if(true)
+{
+	for(var i=0 ; i<ds_list_size(baddieOccupancyList) ; i++)
+	{
+		var row = floor(i/11);
+		var col = i % 11;
+		if(baddieOccupancyList[|i])
+		{
+			draw_text(20*col, 100-(20*row), "O");
+		}
+		else
+		{
+			draw_text(20*col, 100-(20*row), ".");
+		}
+	}
+}

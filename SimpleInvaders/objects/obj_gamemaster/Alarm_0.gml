@@ -50,9 +50,10 @@ else
 	baddieDelta = kBaddieXSpeed;
 	
 	// init the bomb dropping array
-	bombDropList = ds_list_create();
-	for(var i=0 ; i<11 ; i++)
+	baddieOccupancyList = ds_list_create();
+	for(var i=0 ; i<55 ; i++)
 	{
-		ds_list_add(bombDropList, 0);	// row of baddie at column i
+		ds_list_add(baddieOccupancyList, true);	// occupancy of position
 	}
+	bombAvailable = true;
 }
