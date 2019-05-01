@@ -28,4 +28,11 @@ if(true)
 			draw_text(20*col, 100-(20*row), ".");
 		}
 	}
+	for(var i=0 ; i<ds_list_size(baddieBombSpawnRow) ; i++)
+	{
+		if(baddieBombSpawnRow[|i] != -1)
+		{
+			draw_text(20*i, 120-(20*baddieBombSpawnRow[|i]), "X");
+		}
+	}
 }

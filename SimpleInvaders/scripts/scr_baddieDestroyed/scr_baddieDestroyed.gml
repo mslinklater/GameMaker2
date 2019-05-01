@@ -13,3 +13,24 @@ var numAliveBaddies = instance_number(obj_baddie);
 
 // update the occupancy list
 ds_list_set(obj_gamemaster.baddieOccupancyList, row*11 + column, false);
+
+// update the bomb spawn row
+
+with(obj_gamemaster)
+{
+	var firstRow = -1;
+	var thisRow = 0;
+	for(var i=column ; (i < 55) && (firstRow == -1); i+=11)
+	{
+		if(baddieOccupancyList[|i])
+		{
+			baddieBombSpawnRow[|column] = thisRow;
+			firstRow = thisRow;
+		}
+		thisRow++;
+	}
+	if(firstRow == -1)
+	{
+		baddieBombSpawnRow[|column] = -1;
+	}
+}

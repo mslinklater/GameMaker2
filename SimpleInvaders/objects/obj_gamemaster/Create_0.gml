@@ -10,6 +10,7 @@ currentPhase = kPhaseBuild;
 alarm[kBuildAlarm] = 5;
 baddieList = ds_list_create();
 baddieOccupancyList = ds_list_create();
+baddieBombSpawnRow = ds_list_create();
 numBaddiesBuilt = 0;
 baddieMovingDown = false;
 baddieRequestMoveDown = false;

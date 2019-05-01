@@ -25,7 +25,7 @@ switch(row)
 }
 
 var newBaddie = instance_create_layer(xpos, ypos, "Instances", whichBaddie);
-newBaddie.row = row + 1;
+newBaddie.row = row;
 newBaddie.column = column;
 
 ds_list_add(baddieList, newBaddie);
@@ -56,4 +56,9 @@ else
 		ds_list_add(baddieOccupancyList, true);	// occupancy of position
 	}
 	bombAvailable = true;
+	baddieBombSpawnRow = ds_list_create();
+	for(var i=0 ; i<11 ; i++)
+	{
+		ds_list_add(baddieBombSpawnRow, 0);
+	}
 }
