@@ -9,7 +9,7 @@
 #macro kBaddieStartXStep 16
 #macro kBaddieStartYStep 20
 #macro kBaddieXSpeed 2
-#macro kBaddieYSpeed 8
+#macro kBaddieYSpeed 12
 #macro kBaddieXBorder 10
 
 #macro kDirectionLeft 0

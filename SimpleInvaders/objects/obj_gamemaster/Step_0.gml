@@ -1,6 +1,6 @@
 /// @description Update the game
 
-if(currentPhase == kPhaseGame)
+if((currentPhase == kPhaseGame) && (global.playerAlive))
 {
 	var numBaddies = ds_list_size(baddieList);
 

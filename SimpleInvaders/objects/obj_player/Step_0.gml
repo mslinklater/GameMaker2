@@ -31,5 +31,5 @@ if(global.playerAlive)
 }
 else
 {	// !playerAlive	
-	image_index = 1;
+	image_index = irandom_range(1, 2);
 }

@@ -1,5 +1,7 @@
 /// @description
 
+kAlarmRevive = 0;
+
 // position properly
 
 x = kPlayerStartX;

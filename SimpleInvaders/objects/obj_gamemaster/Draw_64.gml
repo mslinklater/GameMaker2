@@ -1,19 +1,24 @@
 /// @description
 
-switch(currentPhase)
+
+// game logic
+if(false)
 {
-	case kPhaseBuild:
-		draw_text(0, 600, "build");
-		break;
-	case kPhaseGame:
-		draw_text(0, 600, "game");
-		break;
+	switch(currentPhase)
+	{
+		case kPhaseBuild:
+			draw_text(0, 600, "build");
+			break;
+		case kPhaseGame:
+			draw_text(0, 600, "game");
+			break;
+	}
+	
+	draw_text(0, 620, "baddies: " + string(ds_list_size(baddieList)));
 }
 
-draw_text(0, 620, "baddies: " + string(ds_list_size(baddieList)));
-
 // occupancy
-if(true)
+if(false)
 {
 	for(var i=0 ; i<ds_list_size(baddieOccupancyList) ; i++)
 	{

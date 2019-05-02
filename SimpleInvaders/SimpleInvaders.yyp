@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "06524d2e-8f90-4531-9c96-9b579c89189a",
+            "Value": {
+                "id": "31a98826-32d2-4d2f-b144-560462194c5d",
+                "resourcePath": "objects\\obj_floor\\obj_floor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b52684f-6a3d-4157-a316-c74bbe61f372",
             "Value": {
                 "id": "cc7cf5f1-6dfb-4cf6-b6f9-6f3d482927bd",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "a766879b-c3ca-497c-b1a4-c6847d71306e",
                 "resourcePath": "sprites\\spr_baddie1\\spr_baddie1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2c19cbe1-543b-4e32-a472-d09143e3b50f",
+            "Value": {
+                "id": "82abf430-f611-4eaf-bc5f-08abbdeb7c52",
+                "resourcePath": "sprites\\spr_floor\\spr_floor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -188,6 +204,14 @@
                 "id": "c03852aa-85ad-4d80-aee8-2ae6c3ed8daa",
                 "resourcePath": "scripts\\scr_globals\\scr_globals.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "557d60ff-f05d-44e5-b018-579247c69b94",
+            "Value": {
+                "id": "46065d98-967b-4df2-a4f8-450a4c2e0fe1",
+                "resourcePath": "objects\\obj_bomb_explosion\\obj_bomb_explosion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -307,6 +331,14 @@
             "Value": {
                 "id": "7912b7db-2466-4544-b405-b931371629d2",
                 "resourcePath": "sprites\\spr_bullet\\spr_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d41dc1f-8503-430f-8160-251093280f4a",
+            "Value": {
+                "id": "f05343a2-0a3e-4e8e-9eb4-8ce25ca99592",
+                "resourcePath": "sprites\\spr_bomb_explosion\\spr_bomb_explosion.yy",
                 "resourceType": "GMSprite"
             }
         },
