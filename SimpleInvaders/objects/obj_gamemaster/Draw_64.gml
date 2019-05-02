@@ -32,7 +32,7 @@ if(true)
 	{
 		if(baddieBombSpawnRow[|i] != -1)
 		{
-			draw_text(20*i, 120-(20*baddieBombSpawnRow[|i]), "X");
+			draw_text(baddieColumnXPos + i*20, baddieColumnYPos+ 120-(20*baddieBombSpawnRow[|i]), "X");
 		}
 	}
 }

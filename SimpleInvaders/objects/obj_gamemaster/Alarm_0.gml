@@ -51,6 +51,10 @@ else
 	
 	// init the bomb dropping array
 	baddieOccupancyList = ds_list_create();
+	baddieBombSpawnRow = ds_list_create();
+	baddieColumnXPos = 0;
+	baddieColumnYPos = 0;
+	
 	for(var i=0 ; i<55 ; i++)
 	{
 		ds_list_add(baddieOccupancyList, true);	// occupancy of position

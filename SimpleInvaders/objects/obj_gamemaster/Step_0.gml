@@ -17,6 +17,8 @@ if(currentPhase == kPhaseGame)
 	}
 	
 	// update this frames baddie
+	updatingBaddie = clamp(updatingBaddie, 0, ds_list_size(baddieList));
+	
 	with(baddieList[|updatingBaddie])
 	{
 		if(other.baddieMovingDown)
@@ -38,7 +40,7 @@ if(currentPhase == kPhaseGame)
 				other.baddieDirection = kDirectionRight;
 				other.baddieRequestMoveDown = true;
 			}
-		}		
+		}
 	}
 	
 	updatingBaddie++;
@@ -48,6 +50,10 @@ if(currentPhase == kPhaseGame)
 	{
 		updatingBaddie = 0;
 		baddieMovingDown = baddieRequestMoveDown;
+		if(baddieMovingDown)	// move bomb drop down
+		{
+			baddieColumnYPos += kBaddieYSpeed;
+		}
 		baddieRequestMoveDown = false;
 		if(baddieDirection == kDirectionRight)
 		{
@@ -57,10 +63,11 @@ if(currentPhase == kPhaseGame)
 		{
 			baddieDelta = -kBaddieXSpeed;
 		}
+		baddieColumnXPos += baddieDelta;
 	}
 	
 	// Decide wether to drop bombs
-//	if(bombAvailable)
+	if(bombAvailable)
 	{
 		// which columns have baddies in them
 		var columnList = ds_list_create();
@@ -82,10 +89,11 @@ if(currentPhase == kPhaseGame)
 		if(ds_list_size(columnList) > 0)
 		{
 			var chosenColumn = ds_list_find_value(columnList, irandom_range(0, ds_list_size(columnList)-1));
-			
-			show_debug_message("column:" + string(chosenColumn));
+			var xpos = kBaddieStartX + baddieColumnXPos + (kBaddieStartXStep * chosenColumn);
+			var ypos = baddieColumnYPos + kBaddieStartY - (baddieBombSpawnRow[|chosenColumn] * kBaddieStartYStep);
+			instance_create_layer(xpos, ypos, "Instances", obj_bomb);
 		}
-		// pick a column number
+		
 		bombAvailable = false;
 	}
 }
