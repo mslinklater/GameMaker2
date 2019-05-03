@@ -1,8 +1,8 @@
 {
-    "id": "ffbc9620-0ec3-465d-bd04-868a553f7279",
+    "id": "0b4cc178-57dd-4697-9b94-1e9504193ed6",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_barrier_section",
+    "name": "obj_barrier_spawner",
     "eventList": [
         
     ],

@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0b4cc178-57dd-4697-9b94-1e9504193ed6",
+            "Value": {
+                "id": "70611375-f62c-445a-b0d8-3d18bbbfba9c",
+                "resourcePath": "objects\\obj_barrier_spawner\\obj_barrier_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0b52684f-6a3d-4157-a316-c74bbe61f372",
             "Value": {
                 "id": "cc7cf5f1-6dfb-4cf6-b6f9-6f3d482927bd",

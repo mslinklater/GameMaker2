@@ -37,4 +37,3 @@ scr_baddieDestroyed(other, column, row);
 // Now destroy the baddie and spawn an expostion object
 instance_destroy()
 
-global.bulletActive = false;

@@ -13,6 +13,7 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 		numBaddiesBuilt = 0;
 		baddieMovingDown = false;
 		baddieRequestMoveDown = false;
+		instance_destroy(obj_barrier);
 		return;
 	}
 	
@@ -94,7 +95,7 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 			var chosenColumn = ds_list_find_value(columnList, irandom_range(0, ds_list_size(columnList)-1));
 			var xpos = kBaddieStartX + baddieColumnXPos + (kBaddieStartXStep * chosenColumn);
 			var ypos = baddieColumnYPos + kBaddieStartY - (baddieBombSpawnRow[|chosenColumn] * kBaddieStartYStep);
-			instance_create_layer(xpos, ypos, "Instances", obj_bomb);
+ 			instance_create_layer(xpos, ypos, "Instances", obj_bomb);
 		}
 		
 		bombAvailable = false;

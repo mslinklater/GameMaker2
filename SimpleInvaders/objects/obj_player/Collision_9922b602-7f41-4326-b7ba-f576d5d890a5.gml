@@ -8,9 +8,10 @@ lives--;
 
 if(lives > 0)
 {
-	alarm_set(kAlarmRevive,180);
+	alarm_set(kAlarmRevive,120);
 }
 else
 {
 	// proper dead...
+	obj_gamemaster.currentPhase = obj_gamemaster.kPhaseGameOver;
 }

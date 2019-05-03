@@ -2,6 +2,7 @@
 
 kPhaseBuild = 1;
 kPhaseGame = 2;
+kPhaseGameOver = 3;
 
 kBuildAlarm = 0;
 

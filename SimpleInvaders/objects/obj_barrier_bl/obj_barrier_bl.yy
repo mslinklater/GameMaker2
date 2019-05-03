@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "obj_barrier_bl",
     "eventList": [
-        
+        {
+            "id": "ff518c6f-c027-4147-8de6-42f022e31339",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "999355a2-e808-4dbf-8aaf-59f256114b86"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "be3b79a1-6026-4fc9-9f85-97e623a48f4d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

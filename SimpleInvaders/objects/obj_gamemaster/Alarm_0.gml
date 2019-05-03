@@ -65,4 +65,9 @@ else
 	{
 		ds_list_add(baddieBombSpawnRow, 0);
 	}
+	// spawn barriers
+	with(obj_barrier_spawner)
+	{
+		instance_create_layer(x, y, "Instances", obj_barrier);
+	}
 }
