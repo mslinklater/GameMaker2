@@ -19,26 +19,29 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 	// update this frames baddie
 	updatingBaddie = clamp(updatingBaddie, 0, ds_list_size(baddieList));
 	
-	with(baddieList[|updatingBaddie])
+	if(baddieList[|updatingBaddie] != noone)
 	{
-		if(other.baddieMovingDown)
+		with(baddieList[|updatingBaddie])
 		{
-			y += kBaddieYSpeed;
-		}
-		else
-		{
-			x += other.baddieDelta;
-			image_index = 1 - image_index;
-			
-			if(x >= room_width - kBaddieXBorder)
+			if(other.baddieMovingDown)
 			{
-				other.baddieDirection = kDirectionLeft;
-				other.baddieRequestMoveDown = true;
+				y += kBaddieYSpeed;
 			}
-			if(x <= kBaddieXBorder)
+			else
 			{
-				other.baddieDirection = kDirectionRight;
-				other.baddieRequestMoveDown = true;
+				x += other.baddieDelta;
+				image_index = 1 - image_index;
+			
+				if(x >= room_width - kBaddieXBorder)
+				{
+					other.baddieDirection = kDirectionLeft;
+					other.baddieRequestMoveDown = true;
+				}
+				if(x <= kBaddieXBorder)
+				{
+					other.baddieDirection = kDirectionRight;
+					other.baddieRequestMoveDown = true;
+				}
 			}
 		}
 	}

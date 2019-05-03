@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "114d3aaf-812d-4dbf-bcc4-b6d639fb1883",
+            "Value": {
+                "id": "49c7f854-8101-4b22-a7e4-465c66ee774a",
+                "resourcePath": "views\\114d3aaf-812d-4dbf-bcc4-b6d639fb1883.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "13eebf83-809d-4dde-9e2c-a41fd571c291",
             "Value": {
                 "id": "18fb0a0b-741d-485f-8dd4-bd9ec788b810",
@@ -156,6 +164,14 @@
                 "id": "266e93b0-2f9c-4776-9d1f-8226f8ef833f",
                 "resourcePath": "views\\3b3897d4-0b5f-41e8-8d98-22907259da2e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3bcdb3c6-fc26-431b-8c4a-582ace10bf65",
+            "Value": {
+                "id": "650d5b84-52f2-4748-8680-13f51d411145",
+                "resourcePath": "objects\\obj_barrier_tr\\obj_barrier_tr.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "999355a2-e808-4dbf-8aaf-59f256114b86",
+            "Value": {
+                "id": "9331646e-3b8b-47d2-9787-4f6cccb8a416",
+                "resourcePath": "objects\\obj_barrier_bl\\obj_barrier_bl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9aeb17fd-841b-4ed8-bc05-75efb002d5d5",
             "Value": {
                 "id": "7912b7db-2466-4544-b405-b931371629d2",
@@ -340,6 +364,14 @@
                 "id": "f05343a2-0a3e-4e8e-9eb4-8ce25ca99592",
                 "resourcePath": "sprites\\spr_bomb_explosion\\spr_bomb_explosion.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a746975b-890a-42b3-a374-e8c51a1bc6c9",
+            "Value": {
+                "id": "f1bc3aa1-3f8f-46b1-b86a-953750e87542",
+                "resourcePath": "objects\\obj_barrier_tl\\obj_barrier_tl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -455,10 +487,26 @@
             }
         },
         {
+            "Key": "dc8ccbc1-1c77-41a5-a27a-be50e2710856",
+            "Value": {
+                "id": "72619346-cc86-4084-a2ab-f4b73ed871d4",
+                "resourcePath": "sprites\\spr_dbg_barrier\\spr_dbg_barrier.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e09cad0a-a979-4713-8725-a0e0b32dc8b4",
             "Value": {
                 "id": "e4aa02d6-c8d4-4b6f-847f-4bf103417a58",
                 "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e39b0aa1-b7c5-4923-b06f-53e33573e292",
+            "Value": {
+                "id": "a52413f0-bc8c-4a61-8770-2d9ec7334417",
+                "resourcePath": "objects\\obj_barrier_br\\obj_barrier_br.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -468,6 +516,14 @@
                 "id": "9a8c7296-5cef-4202-ba34-97af77b8f2cc",
                 "resourcePath": "views\\e7168269-e6ca-40d0-be2c-1edcb2ef9dfe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9a437bf-b6c3-483f-b8de-0ebf8461e39e",
+            "Value": {
+                "id": "d1e8c7b1-fb6c-4647-a0ae-027807e46dcb",
+                "resourcePath": "objects\\obj_barrier_full\\obj_barrier_full.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -492,14 +548,6 @@
                 "id": "bcf1f1ce-8217-41bf-9d4c-4eab6c18bf61",
                 "resourcePath": "views\\f82f3d65-e2e6-4a47-b041-b4c04b337828.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ffbc9620-0ec3-465d-bd04-868a553f7279",
-            "Value": {
-                "id": "05e05948-291d-4adc-a2a1-73700ef89486",
-                "resourcePath": "objects\\obj_barrier_section\\obj_barrier_section.yy",
-                "resourceType": "GMObject"
             }
         }
     ],

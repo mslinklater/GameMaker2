@@ -25,3 +25,4 @@ instance_image_index = 0;
 //window_set_fullscreen(true);
 
 lives = 3;
+score = 0;
