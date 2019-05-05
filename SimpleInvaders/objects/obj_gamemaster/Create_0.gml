@@ -19,7 +19,6 @@ baddieMovingDown = false;
 baddieRequestMoveDown = false;
 bombAvailable = false;
 
-draw_set_font(fnt_main);
 
 instance_image_index = 0;
 

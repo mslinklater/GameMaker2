@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// lives
-draw_text(0, 300, string(lives));
+draw_set_font(fnt_main);

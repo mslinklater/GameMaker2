@@ -18,10 +18,10 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 	}
 	
 	// update this frames baddie
-	updatingBaddie = clamp(updatingBaddie, 0, ds_list_size(baddieList));
+	updatingBaddie = clamp(updatingBaddie, 0, ds_list_size(baddieList) - 1);
 	
-	if(baddieList[|updatingBaddie] != noone)
-	{
+//	if(baddieList[|updatingBaddie] != noone)
+//	{
 		with(baddieList[|updatingBaddie])
 		{
 			if(other.baddieMovingDown)
@@ -45,7 +45,7 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 				}
 			}
 		}
-	}
+//	}
 	
 	updatingBaddie++;
 	

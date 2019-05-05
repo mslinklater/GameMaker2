@@ -14,4 +14,5 @@ else
 {
 	// proper dead...
 	obj_gamemaster.currentPhase = obj_gamemaster.kPhaseGameOver;
+	highscore_add("", score);
 }
