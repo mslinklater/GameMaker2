@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-score = 0;
-draw_set_halign(fa_center);
+with(obj_gamemaster)
+{
+	alarm_set(kUFOAlarm, irandom_range(600, 1200));
+}

@@ -9,6 +9,6 @@ draw_text(40, 20, string(score));
 
 // high score
 draw_text(120, 8, "HI-SCORE");
-draw_text(120, 20, string(highscore_value(0)));
+draw_text(120, 20, string(highscore_value(1)));
 
 

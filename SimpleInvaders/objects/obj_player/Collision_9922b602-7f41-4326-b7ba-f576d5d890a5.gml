@@ -13,6 +13,5 @@ if(lives > 0)
 else
 {
 	// proper dead...
-	obj_gamemaster.currentPhase = obj_gamemaster.kPhaseGameOver;
-	highscore_add("", score);
+	scr_endgame();
 }

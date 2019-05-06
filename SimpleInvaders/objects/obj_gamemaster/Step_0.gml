@@ -14,6 +14,8 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 		baddieMovingDown = false;
 		baddieRequestMoveDown = false;
 		instance_destroy(obj_barrier);
+		wave = clamp(wave++, 0, 10);
+		
 		return;
 	}
 	
@@ -99,5 +101,14 @@ if((currentPhase == kPhaseGame) && (global.playerAlive))
 		}
 		
 		bombAvailable = false;
+	}
+}
+
+// Game Over
+if(currentPhase == kPhaseGameOver)
+{
+	if(keyboard_check(vk_space))
+	{
+		room_goto(rm_boot);
 	}
 }

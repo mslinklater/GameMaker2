@@ -5,6 +5,7 @@ kPhaseGame = 2;
 kPhaseGameOver = 3;
 
 kBuildAlarm = 0;
+kUFOAlarm = 1;
 
 currentPhase = kPhaseBuild;
 
@@ -19,6 +20,7 @@ baddieMovingDown = false;
 baddieRequestMoveDown = false;
 bombAvailable = false;
 
+wave = 0;
 
 instance_image_index = 0;
 
@@ -26,3 +28,5 @@ instance_image_index = 0;
 
 lives = 3;
 score = 0;
+
+alarm_set(kUFOAlarm, 300);

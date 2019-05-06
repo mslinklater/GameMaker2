@@ -5,7 +5,7 @@
 var xpos = kBaddieStartX + ((numBaddiesBuilt % 11) * kBaddieStartXStep);
 var row = floor(numBaddiesBuilt / 11);
 var column = numBaddiesBuilt % 11;
-var ypos = kBaddieStartY - (row * kBaddieStartYStep);
+var ypos = kBaddieStartY - (row * kBaddieStartYStep) + wave * 8;
 
 var whichBaddie = 0;
 
@@ -66,8 +66,11 @@ else
 		ds_list_add(baddieBombSpawnRow, 0);
 	}
 	// spawn barriers
-	with(obj_barrier_spawner)
+	if(wave < 7)
 	{
-		instance_create_layer(x, y, "Instances", obj_barrier);
+		with(obj_barrier_spawner)
+		{
+			instance_create_layer(x, y, "Instances", obj_barrier);
+		}
 	}
 }

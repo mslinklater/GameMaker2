@@ -17,5 +17,5 @@
 #macro kDirectionUp 2
 #macro kDirectionDown 3
 
-#macro kBulletSpeed 5
+#macro kBulletSpeed 4
 #macro kBombSpeed 2
