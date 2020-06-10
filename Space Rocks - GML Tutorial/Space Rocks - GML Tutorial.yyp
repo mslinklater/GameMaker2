@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "a759db40-753a-4089-953b-b44b26a06975",
+            "Value": {
+                "id": "01c6c92d-7fb1-4922-80e1-881058577b0d",
+                "resourcePath": "scripts\\spawn_off_camera\\spawn_off_camera.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "f2810190-a2e1-4a0c-a1d5-ea76c451a505",
@@ -368,7 +376,7 @@
         }
     ],
     "script_order": [
-        
+        "a759db40-753a-4089-953b-b44b26a06975"
     ],
     "tutorial": "com.YoYoGames.SpaceRocksGML"
 }
