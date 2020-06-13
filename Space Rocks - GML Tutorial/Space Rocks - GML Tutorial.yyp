@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "56b8ef01-7d71-4977-b485-ac48accdfd39",
+            "Value": {
+                "id": "86dbbded-7bbb-4863-a1ac-12426d69e86c",
+                "resourcePath": "sprites\\spr_starfield_1\\spr_starfield_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58b18a18-476d-4289-9d9d-16b6418d85e8",
             "Value": {
                 "id": "791e6ed8-28c8-4734-a176-7d65a8ea3290",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "9d96d9ef-d46b-4357-a5c0-220cbfb4bc71",
+            "Value": {
+                "id": "4aed3ff2-298d-4469-8ca9-329212fb3181",
+                "resourcePath": "sprites\\spr_star_gradient\\spr_star_gradient.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a3b481b0-1b29-4edb-b894-5664d55eb356",
             "Value": {
                 "id": "2b7431e9-2c87-45b2-8f9c-de2a62473724",
@@ -271,11 +287,27 @@
             }
         },
         {
+            "Key": "cc2150a9-4095-47a2-92e9-713a9a4ee813",
+            "Value": {
+                "id": "ce1df8da-ca43-454f-9f45-7e4dbfa204c8",
+                "resourcePath": "sprites\\spr_starfield_2\\spr_starfield_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "5979f184-7a14-40da-8da9-69b3b2094d73",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d146d72f-f2c0-4bdf-81b4-362289895cb5",
+            "Value": {
+                "id": "0f5340a1-c0a6-4e11-b727-2d3fed877822",
+                "resourcePath": "sprites\\spr_starfield_0\\spr_starfield_0.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
