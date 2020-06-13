@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "021857e0-7e1a-4e55-b925-2d8229549087",
+            "Value": {
+                "id": "3721da0c-42ac-4e6e-bd89-242a16ae497f",
+                "resourcePath": "objects\\obj_par_enemy\\obj_par_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "042b4cee-9a8a-47da-a09d-4c32ab8a4921",
             "Value": {
                 "id": "1328b288-c379-4f8b-88bd-7b0425d74c20",
                 "resourcePath": "sounds\\snd_lose\\snd_lose.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "075dde89-0b60-40f7-8d42-04503307721d",
+            "Value": {
+                "id": "e962390e-c69a-4d2d-ad16-648e2abe2349",
+                "resourcePath": "objects\\obj_hunter\\obj_hunter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -60,6 +76,22 @@
                 "id": "6f2e6dc0-6f47-4823-8f6b-58d781c4fc00",
                 "resourcePath": "views\\10ad9226-b7a6-4df0-b659-6612a9ff2b0e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1c47c272-7236-4c89-b555-2c28d28f3159",
+            "Value": {
+                "id": "b45caf6e-8fb5-4ae8-84da-4361e6223f09",
+                "resourcePath": "sprites\\spr_enemy_brute_strip5\\spr_enemy_brute_strip5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1db6c2e9-fe63-442d-b14e-cc38911eb427",
+            "Value": {
+                "id": "49e4dc60-86fd-46c7-8829-fad9cc53e434",
+                "resourcePath": "sprites\\spr_enemy_raider\\spr_enemy_raider.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -111,10 +143,26 @@
             }
         },
         {
+            "Key": "363773b6-9a82-422d-9a57-02e323618923",
+            "Value": {
+                "id": "ceb1a0a9-ed94-4438-be9c-cf3a9abe8af8",
+                "resourcePath": "sprites\\spr_enemy_hunter\\spr_enemy_hunter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "391c85db-6173-476f-b135-8fdec4a772f2",
             "Value": {
                 "id": "ac6a4f35-8988-4e0a-a391-15654368c872",
                 "resourcePath": "views\\391c85db-6173-476f-b135-8fdec4a772f2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3a5744ee-87ca-45f9-90dd-18f17d318a07",
+            "Value": {
+                "id": "8030787f-dbb6-491d-b26b-d8ceb0c970c3",
+                "resourcePath": "views\\3a5744ee-87ca-45f9-90dd-18f17d318a07.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -223,6 +271,14 @@
             }
         },
         {
+            "Key": "9e7dd3d8-55e8-4adc-a018-7ecd3e3e78df",
+            "Value": {
+                "id": "96f83539-15d4-4df6-b1fc-1b0ef3534626",
+                "resourcePath": "objects\\obj_raider\\obj_raider.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a3b481b0-1b29-4edb-b894-5664d55eb356",
             "Value": {
                 "id": "2b7431e9-2c87-45b2-8f9c-de2a62473724",
@@ -252,6 +308,14 @@
                 "id": "7aeede36-4862-4b59-ac81-0969b2ac8657",
                 "resourcePath": "views\\ae41b44d-6d97-4386-b073-1e36fdd2de3a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af86fe04-326e-4b8e-bac4-0b887d497c21",
+            "Value": {
+                "id": "dd9dcffe-3b15-4d12-8221-a1644c3a5efd",
+                "resourcePath": "objects\\obj_brute\\obj_brute.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -371,6 +435,14 @@
             "Value": {
                 "id": "a3c55b83-b9a3-45ce-a24c-cf276188769d",
                 "resourcePath": "views\\eda325ab-64d1-47d9-a49c-7c181e7aed1a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f1d8c2b2-9163-4c17-a21c-f89f53fc7ca4",
+            "Value": {
+                "id": "6db7c2cd-23f9-4e24-abc2-7c7a50b380b6",
+                "resourcePath": "views\\f1d8c2b2-9163-4c17-a21c-f89f53fc7ca4.yy",
                 "resourceType": "GMFolder"
             }
         },
