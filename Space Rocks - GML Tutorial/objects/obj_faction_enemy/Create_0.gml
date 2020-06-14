@@ -1,0 +1,3 @@
+/// @description
+
+faction = factions.enemy;

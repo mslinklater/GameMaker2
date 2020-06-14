@@ -7,7 +7,8 @@
         "9e7dd3d8-55e8-4adc-a018-7ecd3e3e78df",
         "075dde89-0b60-40f7-8d42-04503307721d",
         "af86fe04-326e-4b8e-bac4-0b887d497c21",
-        "021857e0-7e1a-4e55-b925-2d8229549087"
+        "021857e0-7e1a-4e55-b925-2d8229549087",
+        "36de8647-6718-4bac-909d-262b63bc806a"
     ],
     "filterType": "GMObject",
     "folderName": "Enemy",

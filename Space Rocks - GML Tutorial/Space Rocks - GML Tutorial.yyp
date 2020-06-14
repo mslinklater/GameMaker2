@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0178d19c-8043-4b6b-98f7-af3ca5369603",
+            "Value": {
+                "id": "5f742490-bf57-444e-9448-a35a1b73818a",
+                "resourcePath": "views\\0178d19c-8043-4b6b-98f7-af3ca5369603.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "021857e0-7e1a-4e55-b925-2d8229549087",
             "Value": {
                 "id": "3721da0c-42ac-4e6e-bd89-242a16ae497f",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "2041ef14-83c0-4a1f-b871-946b7eeb4ff3",
+            "Value": {
+                "id": "c1122e03-e24c-44de-9d59-61927eadefe5",
+                "resourcePath": "objects\\obj_faction\\obj_faction.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "239e1c98-aeeb-4748-a148-b50dc66adf75",
             "Value": {
                 "id": "58dceed0-814b-48cd-bc1d-e5a33fb8d044",
@@ -151,6 +167,14 @@
             }
         },
         {
+            "Key": "36de8647-6718-4bac-909d-262b63bc806a",
+            "Value": {
+                "id": "db0de7e4-df53-40e7-bb9e-b75eb18584d0",
+                "resourcePath": "objects\\obj_faction_enemy\\obj_faction_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "391c85db-6173-476f-b135-8fdec4a772f2",
             "Value": {
                 "id": "ac6a4f35-8988-4e0a-a391-15654368c872",
@@ -164,6 +188,14 @@
                 "id": "8030787f-dbb6-491d-b26b-d8ceb0c970c3",
                 "resourcePath": "views\\3a5744ee-87ca-45f9-90dd-18f17d318a07.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3d55abc6-eec1-4c32-b302-af40e55a906b",
+            "Value": {
+                "id": "79212d28-87e8-404d-a34d-06da8a76a5a1",
+                "resourcePath": "objects\\obj_faction_ally\\obj_faction_ally.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -252,6 +284,14 @@
                 "id": "c90105a2-1003-46cc-84a5-d16e1eb93902",
                 "resourcePath": "views\\7fe576bd-0e53-4c5a-b86d-a4b0ce7b9bb3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91476133-68e5-419d-8b5a-ecb0ca8edfaf",
+            "Value": {
+                "id": "2e0121e3-e719-48e6-8029-c7ad33452ad7",
+                "resourcePath": "objects\\obj_faction_neutral\\obj_faction_neutral.yy",
+                "resourceType": "GMObject"
             }
         },
         {
